@@ -1,0 +1,53 @@
+{
+  "name": "broken-rch",
+  "version": "1.0.0",
+  "description": "React to WhatsApp Channel messages via the Rin API. Zero dependencies, TypeScript types, dual ESM + CJS.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/offline.test.js",
+    "test:live": "node --test test/live.test.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "channel",
+    "react",
+    "reaction",
+    "emoji",
+    "whatsapp-channel",
+    "rin",
+    "api",
+    "bot",
+    "zero-dependency"
+  ],
+  "author": "Neaterry6",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neaterry6/broken-rch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neaterry6/broken-rch/issues"
+  },
+  "homepage": "https://github.com/Neaterry6/broken-rch#readme"
+}
